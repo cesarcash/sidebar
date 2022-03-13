@@ -1,0 +1,37 @@
+.sidebar {
+    inline-size: 15.5rem;
+    block-size: 100vh;
+    background: var(--white);
+    padding-inline-end: .5rem;
+    overflow: hidden;
+    transition: .3s ease-out all;
+}
+
+.sidebar-header {
+    display: flex;
+    padding: 1.25rem;
+}
+
+.sidebar-header label {
+    cursor: pointer;
+}
+
+.sidebar-headerLogo {
+    padding-inline-start: 1rem;
+}
+
+.sidebar-headerTitle {
+    margin: 0;
+    font: var(--subtitle1);
+    padding-inline: .5rem;
+    white-space: nowrap;
+}
+
+.sidebar-header i {
+    padding-inline-end: .75rem;
+    font-size: 1.5rem;
+}
+
+.sidebar-header input {
+    display: none;
+}

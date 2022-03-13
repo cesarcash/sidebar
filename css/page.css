@@ -1,0 +1,17 @@
+@import './sidebar.css';
+@import './content.css';
+
+.page {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'header content';
+}
+
+.sidebar {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}

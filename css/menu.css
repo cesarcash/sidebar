@@ -1,0 +1,45 @@
+.menu {    
+}
+
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-listItem span {
+    transition: .3s ease-out all;
+}
+
+.menu-listItem:hover span {
+    margin-inline-start: 5px;
+}
+
+.menu-listItem a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.menu-listItem i {
+    color: var(--black);
+    font-size: 1.5rem;
+    padding-inline: 1.25rem;
+    padding-block: .75rem;
+}
+
+.menu-title {
+    font: var(--overline);
+    text-transform: uppercase;
+    padding-inline: 1.25rem;
+    padding-block: 1rem;
+    margin: 0;
+}
+
+.menu-listItem.is-active a {
+    background: #C5DCFA;
+    color: var(--primary);
+    border-radius: 0px .75rem .75rem 0px;
+}

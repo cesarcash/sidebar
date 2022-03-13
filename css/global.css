@@ -1,0 +1,9 @@
+:root {
+    --black: #000000; 
+    --primary: #0f56b3; 
+    --grey-bg: #fbfbfb; 
+    --grey: #787878; 
+    --white: #ffffff; 
+    --subtitle1: 700 1rem/1.5rem Manrope; 
+    --overline: 800 .625rem/1rem Manrope;
+}

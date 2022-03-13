@@ -1,0 +1,9 @@
+@import './global.css';
+@import './page.css';
+@import './fonts.css';
+@import './menu.css';
+
+body {
+    font: var(--subtitle1);
+    margin: 0;
+}
